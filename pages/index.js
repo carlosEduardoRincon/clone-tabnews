@@ -1,5 +1,5 @@
 function Home() {
-    return <h1>Novos aprendizados estão por vim...</h1>
+    return <h1>É só o começo! Novos aprendizados estão por vim...</h1>
 }
 
 export default Home;
