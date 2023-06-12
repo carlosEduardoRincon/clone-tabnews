@@ -1,7 +1,7 @@
 function Home() {
     return (
     <div>
-        <h1>Para o meu amor.</h1>
+        <h1>Uma pequena surpresa para a minha vida.</h1>
         <p>
             Bom... para um momento especial exige-se músicas especiais.
             Por isso, criei uma playlist para comemoramos hehe
