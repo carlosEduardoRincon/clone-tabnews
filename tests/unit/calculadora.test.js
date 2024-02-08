@@ -1,4 +1,4 @@
-const calculadora = require("../models/calculadora.js");
+const calculadora = require("../../models/calculadora.js");
 
 test("Sum test 2+3 is 5", () => {
   expect(calculadora.somar(2, 3)).toBe(5);
