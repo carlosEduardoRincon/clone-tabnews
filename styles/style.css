@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+main div {
+  padding: 30px;  
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: #22D4FD;
+  border: 1px solid #22D4FD;
+  padding: 10px;
+}
+
+.menu {
+  padding: 2% 0 0 15%;
+
+  display: flex;
+  gap: 80px;  
+}
+
+.menu__pages {
+  padding: 30px;
+}
+
+.menu a {
+  color: white;
+  font-weight: 600;
+  font-family: 'Montserrast', sans-serif;
+  font-size: 24px;
+  color: #22D4FD;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+.apresentation {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 3% 15%;
+  background-color: b;
+}
+
+.site-subtitle,
+.site-title {
+  padding-top: 20px;
+  color: #22D4FD;
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.apresentation__initial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: black;
+}
+
+.apresentation__initial__title {
+  font-size: 50px;
+  font-family: "Krona One", sans-serif;
+}
+
+.apresentation__initial__text {
+  font-size: 20px;
+}
+
+.apresentation__experiences {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.apresentation__utils {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  margin-top: 80px;
+}
+
+.apresentation__utils a {
+  border: 2px solid #22D4FD;
+  border-radius: 8px;
+  width: 180px;
+  padding: 10px;
+  color: white;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.apresentation__utils a:hover {
+  color: white;
+  border: 2px solid;
+  background-color: #272727;
+}
+
+.skills h2 {
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding: 24px;
+
+  background-color: #22D4FD;
+  color: black;
+
+  font-weight: 1000;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}

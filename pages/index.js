@@ -1,19 +1,15 @@
 function Home() {
   return (
     <div>
+      <link rel="stylesheet" href="../styles/style.css"></link>
       <header>
         <nav class="menu">
-          <ul>
-            <li>
-              <a href="#">Sobre</a>
-            </li>
-            <li>
-              <a href="#">Portfólio</a>
-            </li>
-            <li>
-              <a href="#">Contato</a>
-            </li>
-          </ul>
+          <a class="menu__pages__links" href="index.html">
+            Home
+          </a>
+          <a class="menu__pages__links" href="aboutMe.html">
+            Sobre mim
+          </a>
         </nav>
       </header>
 
@@ -26,7 +22,7 @@ function Home() {
             <h1 class="site-subtitle">Backend developer</h1>
           </div>
           <div class="header-img">
-            <img src="my-img.png" width="150px" alt="Minha Imagem" />
+            <img src="../assets/my-img.png" width="150px" alt="Minha Imagem" />
           </div>
           <div class="about-me">
             <h2>Sobre mim</h2>
@@ -100,16 +96,24 @@ function Home() {
           </div>
         </section>
         <section class="apresentation__utils">
-          <div class="utils">
-            <a href="https://github.com/carlosEduardoRincon">Github</a>
-            <a href="https://www.linkedin.com/in/carloseduardorincon/">
-              LinkedIn
-            </a>
-          </div>
+          <a href="https://github.com/carlosEduardoRincon">
+            <img src="../assets/github.png" />
+            Github
+          </a>
+          <a href="https://www.linkedin.com/in/carloseduardorincon/">
+            <img src="../assets/linkedin.png" />
+            LinkedIn
+          </a>
+          <a href="https://twitter.com/c_rincon_">
+            <img src="../assets/twitter-novo.png" />
+            Twitter
+          </a>
         </section>
       </main>
 
-      <footer></footer>
+      <footer class="footer">
+        <p>Desenvolvido por Cadu.</p>
+      </footer>
     </div>
   );
 }
