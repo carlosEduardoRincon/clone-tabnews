@@ -1,6 +1,6 @@
 {
   "name": "clone-tabnews",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implementação do tabnews para aprimorar conceitos de programação",
   "main": "index.js",
   "scripts": {
